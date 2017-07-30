@@ -23,7 +23,7 @@ body {
   backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px);
   border: 2px solid #ddd;
   border-radius: 4px;
-  box-shadow: 0 0 50px #eee;
+  box-shadow: 0 0 50px #ccc;
   margin: 0 10px;
   max-width: 500px;
   padding: 50px 50px 30px;
@@ -52,6 +52,7 @@ body {
 
 .field,
 .submit {
+  appearance: none; -webkit-appearance: none;
   border-radius: 50rem;
   font: normal 16px 'Montserrat', sans-serif;
 }
@@ -81,7 +82,7 @@ body {
 .submit {
   background-color: #ccc;
   border: 0;
-  bottom: 13px;
+  bottom: 15px;
   cursor: pointer;
   font-size: 12px;
   padding: 4px 12px;
